@@ -1,19 +1,18 @@
 # php-whois
 
-https://github.com/phpWhois/phpWhois
-https://github.com/regru/php-whois
+Tests :
+http://localhost/vendor/hugsbrugs/php-whois/examples/simple-example.php
 
-http://superuser.com/questions/758647/how-to-whois-new-tlds
+## Installation
+composer require hugsbrugs/php-whois
 
-http://www.phpwhois.org/
-http://localhost/vendor/phpwhois/phpwhois/example.php?query=free.fr&output=object
-
-
-Mettre le fichier whois.conf dans :
-/etc/whois.conf
-Pour forcer la recherche en ligne de commande
+## Usage
 
 ```
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use HugsBrugs\HugWhois\HugWhois as HugWhois;
+
 $domain_or_ip = 'sport24.lefogaro.fr'; // '212.95.72.8'
 
 # Create Whois object
@@ -52,3 +51,11 @@ $whois['subdomain'] = $HugWhois->get_sub_domain();
 echo $tld . ' : <br>';
 echo '<pre>';print_r($whois);echo '</pre><br>';
 ```
+
+Similar librairies
+[phpWhois/phpWhois](https://github.com/phpWhois/phpWhois)
+[regru/php-whois](https://github.com/regru/php-whois)
+[phpwhois.org](http://www.phpwhois.org/)
+
+Ressources
+(http://superuser.com/questions/758647/how-to-whois-new-tlds)
