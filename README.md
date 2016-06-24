@@ -1,7 +1,9 @@
 # php-whois
 
 ## Installation
+```
 composer require hugsbrugs/php-whois
+```
 
 ## Tests
 Open in your browser
