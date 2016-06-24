@@ -1,0 +1,17 @@
+{
+    "name": "hugsbrugs/php-whois",
+    "description": "Convenient methods for querying whois",
+    "keywords":["whois", "php"],
+    "authors": [
+        {
+            "name": "Hugo Maugey",
+            "email": "hugo@maugey.fr"
+        }
+    ],
+    "require": {
+        "layershifter/tld-extract": "^1.0"
+    },
+    "autoload":{
+    	"psr-4": {"HugsBrugs\\": "src/HugsBrugs/"}
+    }
+}
