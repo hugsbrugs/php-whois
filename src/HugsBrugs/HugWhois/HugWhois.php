@@ -298,7 +298,7 @@ class HugWhois
     }
 
     /**
-     *
+     * @param bool $keep_comments Should we keep comment in mail extraction (default false)
      */
     public function extract_whois_registrant_emails($keep_comments = false)
     {
