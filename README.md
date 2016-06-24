@@ -1,10 +1,13 @@
 # php-whois
 
-Tests :
-http://localhost/vendor/hugsbrugs/php-whois/examples/simple-example.php
-
 ## Installation
 composer require hugsbrugs/php-whois
+
+## Tests :
+Open in your browser
+```
+/vendor/hugsbrugs/php-whois/examples/simple-example.php
+```
 
 ## Usage
 
