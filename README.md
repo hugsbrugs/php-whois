@@ -55,13 +55,15 @@ echo $tld . ' : <br>';
 echo '<pre>';print_r($whois);echo '</pre><br>';
 ```
 
-Similar librairies
+### Similar librairies
+
 [phpWhois/phpWhois](https://github.com/phpWhois/phpWhois)
 
 [regru/php-whois](https://github.com/regru/php-whois)
 
 [phpwhois.org](http://www.phpwhois.org/)
 
-Ressources
+
+### Ressources
 
 (http://superuser.com/questions/758647/how-to-whois-new-tlds)
